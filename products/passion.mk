@@ -1,12 +1,12 @@
 # Inherit AOSP device configuration for inc.
-$(call inherit-product, device/htc/passion/aokp.mk)
+$(call inherit-product, device/htc/passion/full_passion.mk)
 
 # Inherit some common aokp stuff.
 $(call inherit-product, vendor/aokp/configs/common_phone.mk)
-$(call inherit-product, vendor/aokp/configs/gsm.mk)
 
+#
 # Setup device specific product configuration.
-
+#
 PRODUCT_NAME    := aokp_passion
 PRODUCT_BRAND   := google
 PRODUCT_DEVICE  := passion
@@ -19,7 +19,6 @@ PRIVATE_BUILD_DESC="passion-user 2.3.6 GRK39F 189904 release-keys"
 PRODUCT_PACKAGES += \
     Camera
 
+# boot animation
 PRODUCT_COPY_FILES += \
 	vendor/aokp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
-
-DEVICE_PACKAGE_OVERLAYS += vendor/aokp/overlay/passion
