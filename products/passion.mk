@@ -23,4 +23,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
 	vendor/aokp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
 
-DEVICE_PACKAGE_OVERLAYS += vendor/aokp/overlay/bravo
+DEVICE_PACKAGE_OVERLAYS += vendor/aokp/overlay/passion
