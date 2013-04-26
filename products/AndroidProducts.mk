@@ -7,6 +7,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/bravo.mk \
     $(LOCAL_DIR)/passion.mk \
     $(LOCAL_DIR)/captivatemtd.mk \
+    $(LOCAL_DIR)/d2tmo.mk \
     $(LOCAL_DIR)/espressowifi.mk \
     $(LOCAL_DIR)/fascinatemtd.mk \
     $(LOCAL_DIR)/galaxysmtd.mk \
